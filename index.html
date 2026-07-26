@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Phantom Card — Invisible Protection. Visible Peace of Mind.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="nav-inner">
+    <button class="logo" data-page="home">
+      <span class="ghost-spin">
+        <img src="logo.png" alt="Phantom Card logo" class="logo-img">
+      </span>
+      <span class="logo-text">Phantom<span class="gold-text">Card</span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <button class="nav-link active" data-page="home">Home</button>
+      <button class="nav-link" data-page="compare">Compare Models</button>
+      <button class="nav-link" data-page="guardian">Guardian AI</button>
+      <button class="nav-link" data-page="phantomplus">Phantom+</button>
+      <button class="nav-link" data-page="business">For Business</button>
+      <button class="nav-link" data-page="support">Support</button>
+      <span class="nav-indicator" id="navIndicator"></span>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="btn-gold magnetic shimmer buy-now-desktop" data-page="cart">Buy Now</button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-link" data-page="home">Home</button>
+    <button class="mobile-link" data-page="compare">Compare Models</button>
+    <button class="mobile-link" data-page="guardian">Guardian AI</button>
+    <button class="mobile-link" data-page="phantomplus">Phantom+</button>
+    <button class="mobile-link" data-page="business">For Business</button>
+    <button class="mobile-link" data-page="support">Support</button>
+    <button class="btn-gold mobile-buy" data-page="cart">Buy Now</button>
+  </div>
+</header>
+
+<main id="pageWrap" class="page-wrap page-idle">
+
+  <!-- ================= HOME ================= -->
+  <section class="page active" data-page="home" id="page-home">
+
+    <section class="hero hero-gradient" id="hero">
+      <div class="hero-inner">
+        <div>
+          <p class="eyebrow hero-in hero-in-1">Phantom Card &middot; Guardian AI Inside</p>
+          <h1 class="hero-in hero-in-2">Invisible Protection.<br>Visible Peace of Mind.</h1>
+          <p class="hero-sub hero-in hero-in-3">The wallet companion that thinks ahead — not just tracks behind.</p>
+          <div class="hero-ctas hero-in hero-in-4">
+            <button class="btn-gold magnetic shimmer" data-page="compare">Explore Phantom Card</button>
+            <button class="btn-outline magnetic" data-strength="0.2" data-page="compare">Compare Models</button>
+          </div>
+        </div>
+        <div class="hero-card-wrap hero-in hero-in-3">
+          <div class="hero-card card-float card-glow" id="heroCard">
+            <div class="card-sheen"></div>
+            <div class="card-mark">
+              <img src="logo.png" alt="" class="card-mark-img">
+            </div>
+            <div class="card-footer">
+              <span class="card-tier">Phantom Ultra</span>
+              <span class="card-status"><span class="pulse-dot"></span>Guardian AI active</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue"><span></span></div>
+    </section>
+
+    <div class="ghost-divider"><svg viewBox="0 0 400 56" preserveAspectRatio="none"><path d="M0 0 H400 V56 C 350 56, 340 30, 300 30 C 260 30, 250 56, 210 56 C 170 56, 160 30, 120 30 C 80 30, 70 56, 0 56 Z" fill="#F5F0E6"/></svg></div>
+
+    <!-- STATS BAND -->
+    <section class="stats-band">
+      <div class="wrap">
+        <div class="stats-grid">
+          <div class="stat reveal" style="--d:0s">
+            <p class="stat-num" data-count-target="52000" data-suffix="+">0</p>
+            <p class="stat-label">Units protected worldwide</p>
+          </div>
+          <div class="stat reveal" style="--d:.08s">
+            <p class="stat-num" data-count-target="1200000" data-suffix="+">0</p>
+            <p class="stat-label">Left-behind alerts sent</p>
+          </div>
+          <div class="stat reveal" style="--d:.16s">
+            <p class="stat-num" data-count-target="99" data-decimals="1" data-suffix="%">0</p>
+            <p class="stat-label">Guardian AI uptime</p>
+          </div>
+          <div class="stat reveal" style="--d:.24s">
+            <p class="stat-num" data-count-target="4" data-decimals="1" data-suffix="/5">0</p>
+            <p class="stat-label">Average customer rating</p>
+          </div>
+        </div>
+        <p class="stat-footnote">Illustrative figures — for layout purposes only.</p>
+      </div>
+    </section>
+
+    <!-- PROBLEM / SOLUTION -->
+    <section class="section cream">
+      <div class="wrap">
+        <div class="reveal center-head">
+          <h2>Most trackers help you find a wallet after it's gone.</h2>
+          <p class="lead">Phantom Card is the only one that combines finding, RFID protection, and predictive AI — to stop the loss before it happens.</p>
+        </div>
+        <div class="grid-3">
+          <div class="reveal" style="--d:0s">
+            <div class="tilt card-panel">
+              <p class="kicker">Other trackers</p>
+              <h3>Reactive Tracking</h3>
+              <p class="body-sm">Tells you where it is, once you've already noticed it's missing.</p>
+            </div>
+          </div>
+          <div class="reveal" style="--d:.1s">
+            <div class="tilt card-panel">
+              <p class="kicker">Other trackers</p>
+              <h3>Passive Protection</h3>
+              <p class="body-sm">Shields your cards, but has no idea when you've left the wallet behind.</p>
+            </div>
+          </div>
+          <div class="reveal" style="--d:.2s">
+            <div class="tilt card-panel dark">
+              <p class="kicker gold">Phantom</p>
+              <h3 class="cream-text">Phantom: Predictive Protection</h3>
+              <p class="body-sm light">Recognises the moment risk rises and quietly steps in before loss occurs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section white">
+      <div class="wrap">
+        <h2 class="reveal center-title">Everything protection should quietly do</h2>
+        <div class="grid-features">
+          <div class="reveal" style="--d:0s"><div class="tilt feature-card"><span class="ghost-hover"><img src="logo.png" alt="" class="feature-ghost-img"></span><h3>Bluetooth + UWB Precision Finding</h3><p>Directional guidance down to the centimetre when you're close, city-wide reach when you're not.</p></div></div>
+          <div class="reveal" style="--d:.08s"><div class="tilt feature-card"><span class="ghost-hover"><img src="logo.png" alt="" class="feature-ghost-img"></span><h3>RFID-Shielding</h3><p>Blocks contactless card skimming automatically — no toggle to remember.</p></div></div>
+          <div class="reveal" style="--d:.16s"><div class="tilt feature-card"><span class="ghost-hover"><img src="logo.png" alt="" class="feature-ghost-img"></span><h3>Encrypted Document Vault</h3><p>ID scans and key documents, stored locally and encrypted end-to-end.</p></div></div>
+          <div class="reveal" style="--d:0s"><div class="tilt feature-card"><span class="ghost-hover"><img src="logo.png" alt="" class="feature-ghost-img"></span><h3>Guardian AI</h3><p>Learns your routines and quietly adjusts how — and when — it alerts you.</p></div></div>
+          <div class="reveal" style="--d:.08s"><div class="tilt feature-card"><span class="ghost-hover"><img src="logo.png" alt="" class="feature-ghost-img"></span><h3>Wallet Left-Behind Alerts</h3><p>A gentle nudge the moment you walk away without it.</p></div></div>
+          <div class="reveal" style="--d:.16s"><div class="tilt feature-card"><span class="ghost-hover"><img src="logo.png" alt="" class="feature-ghost-img"></span><h3>Emergency QR</h3><p>A privacy-preserving way for a stranger to return it, without revealing who you are.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL PROOF -->
+    <section class="section cream tight">
+      <p class="reveal placeholder-note">Placeholder press &amp; ratings — for layout purposes only</p>
+      <div class="marquee-mask">
+        <div class="marquee-track">
+          <span>WIRED (mock)</span><span>TechDaily (mock)</span><span>The Gadget Post (mock)</span><span>★★★★★ 4.8/5 (mock)</span><span>Product Weekly (mock)</span>
+          <span>WIRED (mock)</span><span>TechDaily (mock)</span><span>The Gadget Post (mock)</span><span>★★★★★ 4.8/5 (mock)</span><span>Product Weekly (mock)</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING TEASER -->
+    <section class="section white">
+      <div class="wrap">
+        <div class="reveal center-head">
+          <h2>Choose your Phantom</h2>
+          <p class="lead">Four tiers. One philosophy: protect first, notify quietly.</p>
+        </div>
+        <div class="grid-4">
+          <div class="reveal" style="--d:0s">
+            <div class="tilt price-card">
+              <h3>Phantom SE</h3>
+              <p class="price" data-count-target="2499">₹0</p>
+              <p class="body-sm hook">Everyday protection, nothing extra.</p>
+              <button class="btn-line" data-page="compare">Compare</button>
+            </div>
+          </div>
+          <div class="reveal" style="--d:.08s">
+            <div class="tilt price-card popular">
+              <span class="badge">Most Popular</span>
+              <h3 class="cream-text">Phantom Air</h3>
+              <p class="price gold-text" data-count-target="4999">₹0</p>
+              <p class="body-sm hook light">The balance most people choose.</p>
+              <button class="btn-line gold" data-page="compare">Compare</button>
+            </div>
+          </div>
+          <div class="reveal" style="--d:.16s">
+            <div class="tilt price-card">
+              <h3>Phantom Pro</h3>
+              <p class="price" data-count-target="8999">₹0</p>
+              <p class="body-sm hook">Built for travel and long days.</p>
+              <button class="btn-line" data-page="compare">Compare</button>
+            </div>
+          </div>
+          <div class="reveal" style="--d:.24s">
+            <div class="tilt price-card">
+              <h3>Phantom Ultra</h3>
+              <p class="price" data-count-target="14999">₹0</p>
+              <p class="body-sm hook">The full Guardian AI experience.</p>
+              <button class="btn-line" data-page="compare">Compare</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- ================= COMPARE ================= -->
+  <section class="page" data-page="compare" id="page-compare">
+    <section class="page-hero hero-gradient">
+      <div class="wrap reveal">
+        <h1 class="cream-text">Compare Models</h1>
+        <p class="hero-sub">Every tier includes core loss protection. Higher tiers add reach, materials, and intelligence.</p>
+      </div>
+    </section>
+
+    <section class="section cream">
+      <div class="wrap grid-5" id="tierCards">
+        <!-- tier cards injected identically via HTML for SEO-friendliness -->
+        <div class="reveal" style="--d:0s"><div class="tilt tier-card" data-tier="SE">
+          <h3>Phantom SE</h3><p class="price sm" data-count-target="2499">₹0</p>
+          <dl class="spec-list"><div><dt>Battery</dt><dd class="mono">12 mo</dd></div><div><dt>Best for</dt><dd>Students</dd></div></dl>
+          <button class="expand-toggle" data-tier="SE">See full feature list <span class="chevron">⌄</span></button>
+          <div class="feature-collapse" data-tier-list="SE">
+            <ul><li>+ Bluetooth tracking</li><li>+ RFID shielding</li><li>+ Left-Behind Alerts</li><li>+ Emergency QR</li></ul>
+          </div>
+          <button class="btn-select">Select SE</button>
+        </div></div>
+
+        <div class="reveal" style="--d:.06s"><div class="tilt tier-card popular" data-tier="Air">
+          <span class="badge">Most Popular</span>
+          <h3>Phantom Air</h3><p class="price sm" data-count-target="4999">₹0</p>
+          <dl class="spec-list"><div><dt>Battery</dt><dd class="mono">18 mo</dd></div><div><dt>Best for</dt><dd>Professionals</dd></div></dl>
+          <button class="expand-toggle" data-tier="Air">See full feature list <span class="chevron">⌄</span></button>
+          <div class="feature-collapse" data-tier-list="Air">
+            <ul><li>+ Wireless charging</li><li>+ NFC</li><li>+ Motion sensors</li><li>+ Encrypted Document Vault</li></ul>
+          </div>
+          <button class="btn-select">Select Air</button>
+        </div></div>
+
+        <div class="reveal" style="--d:.12s"><div class="tilt tier-card" data-tier="Pro">
+          <h3>Phantom Pro</h3><p class="price sm" data-count-target="8999">₹0</p>
+          <dl class="spec-list"><div><dt>Battery</dt><dd class="mono">24 mo</dd></div><div><dt>Best for</dt><dd>Travellers / executives</dd></div></dl>
+          <button class="expand-toggle" data-tier="Pro">See full feature list <span class="chevron">⌄</span></button>
+          <div class="feature-collapse" data-tier-list="Pro">
+            <ul><li>+ UWB precision finding</li><li>+ Titanium frame</li><li>+ Full AI suite</li></ul>
+          </div>
+          <button class="btn-select">Select Pro</button>
+        </div></div>
+
+        <div class="reveal" style="--d:.18s"><div class="tilt tier-card" data-tier="Ultra">
+          <h3>Phantom Ultra</h3><p class="price sm" data-count-target="14999">₹0</p>
+          <dl class="spec-list"><div><dt>Battery</dt><dd class="mono">36 mo</dd></div><div><dt>Best for</dt><dd>Premium users</dd></div></dl>
+          <button class="expand-toggle" data-tier="Ultra">See full feature list <span class="chevron">⌄</span></button>
+          <div class="feature-collapse" data-tier-list="Ultra">
+            <ul><li>+ Guardian AI</li><li>+ Fingerprint auth</li><li>+ Solar charging</li><li>+ Carbon-fibre build</li></ul>
+          </div>
+          <button class="btn-select">Select Ultra</button>
+        </div></div>
+
+        <div class="reveal" style="--d:.24s"><div class="tilt tier-card" data-tier="Enterprise">
+          <h3>Phantom Enterprise</h3><p class="price sm">Custom</p>
+          <dl class="spec-list"><div><dt>Battery</dt><dd class="mono">—</dd></div><div><dt>Best for</dt><dd>Corporates</dd></div></dl>
+          <button class="expand-toggle" data-tier="Enterprise">See full feature list <span class="chevron">⌄</span></button>
+          <div class="feature-collapse" data-tier-list="Enterprise">
+            <ul><li>+ Employee management</li><li>+ Asset tracking</li><li>+ Admin controls</li></ul>
+          </div>
+          <button class="btn-select">Select Enterprise</button>
+        </div></div>
+      </div>
+    </section>
+
+    <section class="section cream">
+      <div class="wrap reveal">
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Tier</th><th>Price</th><th>Key additions</th><th>Battery</th><th>Best for</th></tr></thead>
+            <tbody>
+              <tr><td class="bold">SE</td><td class="mono">₹2,499</td><td>Bluetooth tracking, RFID shielding, Left-Behind Alerts, Emergency QR</td><td class="mono">12mo</td><td>Students</td></tr>
+              <tr class="alt"><td class="bold">Air</td><td class="mono">₹4,999</td><td>Wireless charging, NFC, Motion sensors, Encrypted Document Vault</td><td class="mono">18mo</td><td>Professionals</td></tr>
+              <tr><td class="bold">Pro</td><td class="mono">₹8,999</td><td>UWB precision finding, Titanium frame, Full AI suite</td><td class="mono">24mo</td><td>Travellers/executives</td></tr>
+              <tr class="alt"><td class="bold">Ultra</td><td class="mono">₹14,999</td><td>Guardian AI, Fingerprint auth, Solar charging, Carbon-fibre</td><td class="mono">36mo</td><td>Premium users</td></tr>
+              <tr><td class="bold">Enterprise</td><td class="mono">Custom</td><td>Employee management, Asset tracking, Admin controls</td><td class="mono">—</td><td>Corporates</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================= GUARDIAN AI ================= -->
+  <section class="page" data-page="guardian" id="page-guardian">
+    <section class="page-hero hero-gradient">
+      <div class="wrap reveal narrow center-head">
+        <p class="eyebrow">Flagship Intelligence</p>
+        <h1 class="cream-text">A digital bodyguard, not a dashboard.</h1>
+        <p class="hero-sub">Guardian AI continuously reads ten signals about your day and quietly adjusts its own alerting behaviour — invisible in most moments, decisive in the moment it matters.</p>
+      </div>
+    </section>
+
+    <!-- LIVE CONSOLE -->
+    <section class="section navy-section">
+      <div class="wrap reveal">
+        <div class="console-head">
+          <div>
+            <p class="eyebrow signal-text">Guardian AI &middot; Live Console</p>
+            <h2 class="cream-text">Ten signals, read continuously</h2>
+          </div>
+          <div class="live-pill"><span class="pulse-dot"></span>LIVE <span id="liveClock" class="mono">00:00:00</span></div>
+        </div>
+
+        <div class="scenario-row">
+          <button class="scenario-btn active" data-scenario="home">At home, Tuesday afternoon</button>
+          <button class="scenario-btn" data-scenario="night">Unfamiliar city, 11pm</button>
+          <button class="scenario-btn" data-scenario="abroad">First day in a foreign country</button>
+        </div>
+
+        <div class="console-grid">
+          <div class="signal-list" id="signalList">
+            <!-- rows injected by JS -->
+          </div>
+          <div class="gauge-panel">
+            <div class="gauge-ring" id="gaugeRing">
+              <div class="gauge-hole">
+                <span class="gauge-pct mono" id="gaugePct">15%</span>
+                <span class="gauge-label" id="gaugeLabel">Low risk</span>
+              </div>
+            </div>
+            <p class="gauge-caption" id="gaugeCaption">Silent — no alert needed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLOW EXPLAINER -->
+    <section class="section white">
+      <div class="wrap">
+        <div class="reveal center-head">
+          <h2>Context recognised → risk scored → silent or alert</h2>
+          <p class="lead">The same scenario above, explained in three steps.</p>
+        </div>
+        <div class="flow-wire"><div class="flow-dot" style="animation-delay:0s"></div><div class="flow-dot" style="animation-delay:.9s"></div><div class="flow-dot" style="animation-delay:1.8s"></div></div>
+        <div class="grid-3">
+          <div class="flow-card"><p class="kicker">1. Context recognised</p><h3 id="flowContext">At home, Tuesday afternoon</h3></div>
+          <div class="flow-card"><p class="kicker">2. Risk scored</p><h3 id="flowRisk" class="mono">Low</h3><div class="risk-bar-track"><div class="risk-bar-fill" id="flowRiskBar" style="width:15%"></div></div></div>
+          <div class="flow-card dark"><p class="kicker gold">3. Decision</p><h3 class="cream-text" id="flowAction">Silent — no alert needed</h3></div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================= PHANTOM+ ================= -->
+  <section class="page" data-page="phantomplus" id="page-phantomplus">
+    <section class="page-hero hero-gradient center-head">
+      <div class="wrap reveal narrow">
+        <h1 class="cream-text">Phantom+</h1>
+        <p class="hero-sub">Your hardware is yours forever. Phantom+ covers the ongoing costs a one-time price shouldn't have to — cloud storage, AI compute, and live recovery support.</p>
+        <div class="toggle-wrap">
+          <span class="toggle-pill" id="togglePill"></span>
+          <button class="toggle-btn active" id="toggleMonthly">Monthly</button>
+          <button class="toggle-btn" id="toggleAnnual">Annual — 2 months free</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cream">
+      <div class="wrap grid-3">
+        <div class="reveal" style="--d:0s"><div class="tilt plan-card">
+          <h3>Basic</h3>
+          <p class="price sm"><span class="mono" id="priceBasic" data-monthly="199">₹199</span><span class="period" id="periodBasic">/mo</span></p>
+          <p class="body-sm billed" id="billedBasic">billed monthly</p>
+          <ul class="check-list"><li>Cloud backup</li><li>12-month history</li><li>Family Sharing (3)</li><li>Guardian Reports</li></ul>
+          <button class="btn-select">Choose Basic</button>
+        </div></div>
+
+        <div class="reveal" style="--d:.08s"><div class="tilt plan-card popular">
+          <h3 class="cream-text">Pro</h3>
+          <p class="price sm gold-text"><span class="mono" id="pricePro" data-monthly="399">₹399</span><span class="period" id="periodPro">/mo</span></p>
+          <p class="body-sm billed light" id="billedPro">billed monthly</p>
+          <ul class="check-list light"><li>Everything in Basic</li><li>Identity monitoring</li><li>AI Concierge</li><li>Travel Assistant unlock</li><li>Priority recovery</li></ul>
+          <button class="btn-select-gold">Choose Pro</button>
+        </div></div>
+
+        <div class="reveal" style="--d:.16s"><div class="tilt plan-card">
+          <h3>Elite</h3>
+          <p class="price sm"><span class="mono" id="priceElite" data-monthly="699">₹699</span><span class="period" id="periodElite">/mo</span></p>
+          <p class="body-sm billed" id="billedElite">billed monthly</p>
+          <ul class="check-list"><li>Everything in Pro</li><li>Premium Guardian AI analytics</li><li>VIP support</li><li>Personal Security Score</li></ul>
+          <button class="btn-select">Choose Elite</button>
+        </div></div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================= FOR BUSINESS ================= -->
+  <section class="page" data-page="business" id="page-business">
+    <section class="page-hero hero-gradient">
+      <div class="wrap reveal narrow">
+        <p class="eyebrow">Phantom Enterprise</p>
+        <h1 class="cream-text">Protection, provisioned at scale.</h1>
+        <p class="hero-sub">Equip every employee with Phantom Card and manage devices, assets, and risk from a single dashboard.</p>
+      </div>
+    </section>
+
+    <section class="section cream">
+      <div class="wrap grid-3">
+        <div class="reveal" style="--d:0s"><div class="tilt card-panel"><h3>Device Provisioning</h3><p class="body-sm">Assign and configure Phantom Cards for every employee from a central console.</p></div></div>
+        <div class="reveal" style="--d:.08s"><div class="tilt card-panel"><h3>Asset Tracking</h3><p class="body-sm">Extend Guardian AI's predictive protection to laptops, badges, and equipment.</p></div></div>
+        <div class="reveal" style="--d:.16s"><div class="tilt card-panel"><h3>Admin Controls</h3><p class="body-sm">Role-based access, reporting, and policy management across your organisation.</p></div></div>
+      </div>
+      <div class="wrap">
+        <div class="reveal form-panel">
+          <h3>Book a 15-minute walkthrough</h3>
+          <p class="body-sm">Custom pricing, contract terms, and onboarding — tailored to your team.</p>
+          <form id="bizForm">
+            <input type="text" placeholder="Work email" class="input-focus">
+            <input type="text" placeholder="Company name" class="input-focus">
+            <input type="text" placeholder="Team size" class="input-focus">
+            <button type="submit" class="btn-gold full magnetic shimmer" data-strength="0.15">Book a 15-minute walkthrough</button>
+            <p class="fine-print">Mockup form — not connected to a backend.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================= SUPPORT ================= -->
+  <section class="page" data-page="support" id="page-support">
+    <section class="page-hero hero-gradient center-head">
+      <div class="wrap reveal">
+        <h1 class="cream-text">Support &amp; FAQ</h1>
+        <p class="hero-sub">Answers to the questions we hear most.</p>
+      </div>
+    </section>
+
+    <section class="section cream">
+      <div class="wrap narrow faq-list">
+        <div class="reveal faq-item" style="--d:0s">
+          <button class="faq-q">How do I replace the battery?<span class="faq-plus">+</span></button>
+          <div class="faq-collapse"><p>SE, Air, and Pro batteries are replaced by a Phantom service centre in a single visit. Ultra's solar cell is designed to outlast the product and typically never needs replacement.</p></div>
+        </div>
+        <div class="reveal faq-item" style="--d:.05s">
+          <button class="faq-q">How does RFID protection actually work?<span class="faq-plus">+</span></button>
+          <div class="faq-collapse"><p>A thin shielding layer inside the card blocks the radio frequency used by contactless skimmers, so your cards can't be read without physical contact with your own device.</p></div>
+        </div>
+        <div class="reveal faq-item" style="--d:.1s">
+          <button class="faq-q">What does Guardian AI actually see?<span class="faq-plus">+</span></button>
+          <div class="faq-collapse"><p>Guardian AI processes signals like location, motion, and time on-device wherever possible. It's built to infer risk, not to record or share a log of your movements.</p></div>
+        </div>
+        <div class="reveal faq-item" style="--d:.15s">
+          <button class="faq-q">What's the warranty?<span class="faq-plus">+</span></button>
+          <div class="faq-collapse"><p>Every Phantom Card ships with a 1-year hardware warranty covering manufacturing defects, extendable through Phantom+ plans.</p></div>
+        </div>
+        <div class="reveal faq-item" style="--d:.2s">
+          <button class="faq-q">How do I cancel Phantom+?<span class="faq-plus">+</span></button>
+          <div class="faq-collapse"><p>Cancel anytime from your account settings. You'll keep access until the end of your current billing period, and your hardware keeps working without a subscription.</p></div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================= CART ================= -->
+  <section class="page" data-page="cart" id="page-cart">
+    <section class="section cream cart-section">
+      <div class="reveal narrow cart-panel">
+        <h1>Configure your Phantom Card</h1>
+        <p class="kicker">Model</p>
+        <div class="model-grid" id="modelGrid">
+          <button class="model-btn" data-name="SE" data-price="2499">Phantom SE<span class="mono">₹2499</span></button>
+          <button class="model-btn active" data-name="Air" data-price="4999">Phantom Air<span class="mono">₹4999</span></button>
+          <button class="model-btn" data-name="Pro" data-price="8999">Phantom Pro<span class="mono">₹8999</span></button>
+          <button class="model-btn" data-name="Ultra" data-price="14999">Phantom Ultra<span class="mono">₹14999</span></button>
+        </div>
+        <p class="kicker">Quantity</p>
+        <div class="qty-row">
+          <button id="qtyMinus" class="qty-btn">−</button>
+          <span class="mono" id="qtyValue">1</span>
+          <button id="qtyPlus" class="qty-btn">+</button>
+        </div>
+        <div class="total-row">
+          <span>Total</span>
+          <span class="mono total-value" id="cartTotal">₹4999</span>
+        </div>
+        <button class="btn-gold full magnetic shimmer" data-strength="0.12">Proceed to Checkout</button>
+        <p class="fine-print center">Mockup checkout — no payment is processed.</p>
+      </div>
+    </section>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <div>
+      <div class="footer-logo">
+        <img src="logo.png" alt="Phantom Card logo" class="footer-logo-img">
+        <span>Phantom Card</span>
+      </div>
+      <p class="footer-sub">Phantom Technologies Pvt. Ltd. Invisible protection, visible peace of mind.</p>
+    </div>
+    <div class="footer-links">
+      <button data-page="compare">Compare Models</button>
+      <button data-page="guardian">Guardian AI</button>
+      <button data-page="phantomplus">Phantom+</button>
+      <button data-page="business">For Business</button>
+      <button data-page="support">Support</button>
+    </div>
+  </div>
+  <p class="footer-copy">© 2026 Phantom Technologies Pvt. Ltd. Fictional brand, built for demonstration.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
